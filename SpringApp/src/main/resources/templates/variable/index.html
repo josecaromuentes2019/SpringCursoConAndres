@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th = "http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Prueba rutas</title>
+</head>
+<body>
+<h1>Rutas con @PathVariable</h1>
+<ul>
+  <li><a th:href="@{/variables/string/}+${'Hola'}+'/'+${'Andres'}">doble variable</a></li>
+</ul>
+</body>
+</html>
